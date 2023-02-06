@@ -115,9 +115,9 @@ impl FromStr for Keycode {
     type Err = String;
     fn from_str(s: &str) -> Result<Self, Self::Err> {
         match s {
-            "Key0" => Ok(Self::Key0),
-            "Key1" => Ok(Self::Key1),
-            "Key2" => Ok(Self::Key2),
+            "0" => Ok(Self::Key0),
+            "1" => Ok(Self::Key1),
+            "2" => Ok(Self::Key2),
             "Key3" => Ok(Self::Key3),
             "Key4" => Ok(Self::Key4),
             "Key5" => Ok(Self::Key5),
